@@ -1,0 +1,13 @@
+Activity prediction for energy harvesting
+=========================================
+This application predicts the maximum allowed energy that a node
+that uses energy harvesting can consume in the next time slot, such
+that the node's utility is maximised and the node does not deplete
+its energy.
+
+The algorithm calculates the energy consumption for the next slot
+using the law of energy conservation, such that
+E_next = E_crt + E_harv - E_cons
+The algorithm tries to keep the energy of the system at a set level,
+which should be defined as the maximum level. This will allow
+optimal utility assignment.

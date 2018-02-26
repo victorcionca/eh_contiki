@@ -1,0 +1,14 @@
+obj_*
+*.sky
+*.map
+*.a
+symbols.*
+*.log
+*.testlog
+*.pcap
+logs
+*.o
+*.pyc
+*.png
+*.pdf
+*.swp

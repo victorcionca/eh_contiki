@@ -1,0 +1,13 @@
+Energy harvester simulation
+===========================
+
+This is a simulator for energy harvesting that receives 
+values representing harvested energy over the serial line.
+To allow synchronisation between the "outside world" and
+ourselves, we poll the outside periodically.
+
+The application works together with the battery simulator
+to add energy to the battery.
+
+It also generates an event with each new incoming energy
+value.
